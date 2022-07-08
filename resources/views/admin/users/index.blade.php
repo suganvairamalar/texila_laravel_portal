@@ -51,7 +51,6 @@ Dashboard
                              <td>{{ $item->phone }}</td>
                              <td><img src="{{ asset('uploads/profile_image/'.$item->photo)}}" width="50px"></td>
                              <td><a class="btn btn-danger" role="button" href="{{ asset('uploads/resume/'. $item->resume)}}"  style="text-decoration: underline;font-color:blue;font-weight: bold;" download="{{$item->resume}}">{{$item->resume}}</a></td>
-                           <!--   {{ $item->job_location->job_location_name }} -->
                              <td>
                  
 
